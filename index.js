@@ -33,7 +33,7 @@ require('./src/sockets/event.socket')(io)
 
 //connection mongoose :DB
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://gadour:gadour@cluster0.gvroi.mongodb.net/darna-db?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://gadour:gadour@cluster0.ox9ni.mongodb.net/darna?retryWrites=true&w=majority', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 }).then(() => {
