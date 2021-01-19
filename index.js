@@ -11,7 +11,7 @@ import routes_goal from './src/Routes/goal_routes';
 import routes_sponsor from './src/Routes/sponsor_routes';
 const app = express();
 const cors = require('cors');
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 var serveStatic = require('serve-static');
 var path = require('path');
 const morgan = require('morgan');
